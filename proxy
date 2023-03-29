@@ -1,0 +1,5 @@
+apt update && apt -y install nodejs npm
+git clone https://github.com/novalanto010101/pro && cd pro
+cp .env.example .env
+npm install
+screen -dmS x sudo node server.js
