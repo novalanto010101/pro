@@ -1,4 +1,6 @@
 apt update && apt -y install nodejs npm
+sudo ufw allow 80
+sudo ufw allow 4416
 git clone https://github.com/novalanto010101/pro && cd pro
 cp .env.example .env
 npm install
